@@ -1,6 +1,6 @@
 // Initialize Firebase
 var firebaseConfig = {
-    apiKey: "AIzaSyDqGBHz9cRjbs49Z_cKvGAV6nl_ePa_grE",
+    apiKey: "",
     authDomain: "web-mtg-speech-recognition.firebaseapp.com",
     databaseURL: "https://web-mtg-speech-recognition-default-rtdb.firebaseio.com/",
     projectId: "web-mtg-speech-recognition",
@@ -113,7 +113,7 @@ $(function() {
     // Peer object
     const peer = new Peer({
       // key:   window.__SKYWAY_KEY__,
-      key:   "a7ed86ca-cb79-456d-b064-d6f5ab1116cc",
+      key:   "",
       debug: 3,
     });
   
